@@ -9,6 +9,10 @@
     --bg-color:#b9f1d6;
 }
 
+hide {
+    display: none;
+}
+
 body{
     background-color: var(--bg-color);
 }
@@ -70,6 +74,7 @@ body{
     margin-right: 50px;
 }
 
+
 .photo-home
 {
     position: relative;
@@ -101,11 +106,20 @@ body{
     box-shadow: 2px 2px 13px 4px #ff33ff ;
 }
 
+section {
+    position: relative;
+    top: 100px;
+    left: 170px;
+    width: 1000px;
+    height: 500px;
+    background-color:#69d2cd;
+}
+
 footer {
     width: 100%;
     height: 250px;
     background-color: var(--nav-color);
-    margin-top: 120px;
+    margin-top: 21%;
 }
 
 p {
@@ -114,4 +128,32 @@ p {
     position: absolute;
     margin-left: 38%;
     margin-top: 8%;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+}
+
+.listaNivel {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 18.5%;
+}
+
+li button {
+    margin-right: 15px;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    background-color: #f1f6ce;
+    border: none;
+    border-radius: 9999px;
+    padding: 15px;
+    transition: 0.7s;
+}
+
+li button:hover {
+    background-color: #969981;
 }

@@ -115,3 +115,31 @@ p {
     margin-left: 38%;
     margin-top: 8%;
 }
+
+#card1
+{
+    position: relative;
+    top: 60px;
+    left: 230px;
+
+}
+
+#card2
+{
+    position: absolute;
+    top: 194px;
+    left: 780px;
+}
+
+h1
+{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: #141861;
+}
+
+
+.fa-brands,.fa-linkedin {
+    font-size: 25px;
+}
